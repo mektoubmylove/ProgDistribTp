@@ -15,11 +15,12 @@ jobs:
       - name: Build and test
         working-directory: Td1progD
         run: |
+          chmod +x ./gradlew
           export SHELL=/bin/bash
           ./gradlew build
       - name: Docker images
         working-directory: Td1progD
         run: |
           export SHELL=/bin/bash
-          docker build -t Td1progD .
+          docker build -t rent .
           docker images
