@@ -19,7 +19,7 @@ public class CarRentalService {
     public CarRentalService() {
         Car car = new Car("Mayback", 10000);
         cars.add(car);
-        car = new Car("Renault", 2000);
+        car = new Car("Alpha romeo", 2000);
         cars.add(car);
     }
 
