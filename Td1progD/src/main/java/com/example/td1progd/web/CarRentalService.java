@@ -19,7 +19,9 @@ public class CarRentalService {
     public CarRentalService() {
         Car car = new Car("Mayback", 10000);
         cars.add(car);
-        car = new Car("Renault", 2000);
+        car = new Car("Phantom", 20000);
+        cars.add(car);
+        car = new Car("daytona", 300000);
         cars.add(car);
     }
 
